@@ -1,5 +1,4 @@
-﻿
-using CsevegesCLI;
+﻿using CsevegesCLI;
 
 List<Beszelgetes> beszelgetesek = new();
 List<string> tagok = new();
@@ -35,4 +34,4 @@ var kimaradt = tagok.Except(beszelgetok);
 Console.WriteLine("7. feladat: nem beszélgettek senkivel");
 foreach (var nev in kimaradt) Console.WriteLine($"\t{nev}");
 
-//8as még nincs kész!
+//f8!!!
